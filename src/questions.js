@@ -53,7 +53,7 @@ export default function questions() {
           questionID: 5,
           value: 100,
           question:
-            "Often called sea cows, these animals like to much on cabbage and lettuce.",
+            "Often called sea cows, these animals like to munch on cabbage and lettuce.",
           answer: "What are manatees?",
           answered: false,
         },
@@ -121,7 +121,7 @@ export default function questions() {
           value: 400,
           question:
             "This technique for amplifying specific regions of DNA involves the use of temperature cycles to denature, anneal, and extend DNA strands.",
-          answer: "Polymerase chain reaction (PCR)",
+          answer: "What is polymerase chain reaction (PCR)?",
           answered: false,
         },
         {
@@ -171,7 +171,7 @@ export default function questions() {
           value: 500,
           question:
             "This is the number of miles of blood vessels in an adult human.",
-          answer: "100,000+",
+          answer: "What is 100,000?",
           answered: false,
         },
       ],
@@ -190,17 +190,15 @@ export default function questions() {
           questionID: 21,
           value: 200,
           // TODO:
-          question: "Who won the FIFA World Cup in 2018?",
-          answer: "France",
+          question: "This type of cell lacks a nucleus.",
+          answer: "What is a prokaryotic cell?",
           answered: false,
         },
         {
           questionID: 22,
           value: 300,
-          // TODO:
-          question:
-            "In which city would you find the All England Lawn Tennis and Croquet Club, where the Wimbledon tennis tournament takes place?",
-          answer: "London",
+          question: "Photosynthesis occurs in this organelle.",
+          answer: "What is the chloroplast?",
           answered: false,
         },
         {
@@ -214,7 +212,6 @@ export default function questions() {
         {
           questionID: 24,
           value: 500,
-          // TODO:
           question:
             "This man discovered cells while observing cork in 1665; they reminded him of the cells in a monastery.",
           answer: "Who is Robert Hooke?",
