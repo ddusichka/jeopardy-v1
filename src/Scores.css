@@ -1,0 +1,20 @@
+.score-board {
+  display: flex;
+  text-align: center;
+}
+
+.score {
+  flex: 1;
+}
+
+.points {
+  border: none;
+  margin: 3px;
+}
+
+.scoreInput {
+  text-align: center;
+  border: 1px solid rgb(231, 231, 231);
+  margin-bottom: 10px;
+  font-size: 18px;
+}
