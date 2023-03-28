@@ -8,7 +8,7 @@ import { db } from "../firebase";
 import { serverTimestamp, doc, setDoc } from "firebase/firestore";
 
 export default function GameBoard() {
-  const [categories, setCategories] = useState(questions);
+  const [categories, setCategories] = useState(questions());
   const [currentQuestion, setCurrentQuestion] = useState();
   const [currentCategoryIndex, setCurrentCategoryIndex] = useState();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState();
