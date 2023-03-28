@@ -76,8 +76,7 @@ export default function questions() {
         {
           questionID: 8,
           value: 400,
-          question:
-            "Red touch yellow, kill a fellow” is a common phrase used to identify this animal.",
+          question: `"Red touch yellow, kill a fellow” is a common phrase used to identify this animal.`,
           answer: "What is a coral snake?",
           answered: false,
         },

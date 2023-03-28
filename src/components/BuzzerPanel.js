@@ -35,6 +35,7 @@ export default function BuzzerPanel({ questionTime }) {
     if (buzzers) {
       return (
         <div className="buzzes">
+          {buzzers.length > 0 ? <h4>Buzzes:</h4> : null}
           {buzzers.map((buzz, buzzIndex) => (
             <p key={buzzIndex}>
               {buzzIndex + 1}

@@ -46,6 +46,7 @@ export default function GameBoard() {
 
   return (
     <div className="game-board">
+      <h1 className="title">Bio Jeopardy!</h1>
       <div className="game-board-header">
         {/* Render the categories */}
         {categories.map((category) => (
@@ -78,7 +79,7 @@ export default function GameBoard() {
           <div className="modal">
             <div className="modal-content">
               <h3>{currentQuestion.question}</h3>
-              <p>{currentQuestion.value + " points"}</p>
+              <p className="score">{currentQuestion.value + " points"}</p>
               <BuzzerPanel questionTime={questionTime} />
               {!answerVisible && (
                 <div className="buttons">
